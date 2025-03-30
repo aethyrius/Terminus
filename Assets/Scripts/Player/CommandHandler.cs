@@ -19,7 +19,7 @@ public class CommandHandler : MonoBehaviour
         commands["invisible"] = MakeObjectInvisible;
     }
 
-    public void ChangeText()
+    public void EndEdit()
     {
         if (Input.GetKeyDown(KeyCode.Return))
         {
